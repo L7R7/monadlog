@@ -43,15 +43,15 @@ library
   -- other-modules:       
   -- other-extensions:    
   build-depends:        base >=4.6 && <5
-                    ,   fast-logger >=2.4.5 && <2.5
-                    ,   monad-control >=0.3 && <1.1
+                    ,   fast-logger
+                    ,   monad-control
                     ,   lifted-base 
-                    ,   exceptions >=0.6 && <0.9
+                    ,   exceptions
                     ,   bytestring
                     ,   text
                     ,   text-show
-                    ,   transformers >=0.2
-                    ,   aeson        >= 0.4 && <1.2.4
+                    ,   transformers
+                    ,   aeson
                     ,   template-haskell 
 
   -- hs-source-dirs:      
@@ -59,4 +59,4 @@ library
 
 source-repository head
   type:                 git
-  location:             https://github.com/zmactep/monadlog
+  location:             https://github.com/L7R7/monadlog
